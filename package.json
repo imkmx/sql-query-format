@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imkmx/sql-query-format"
+  },
+  "author": "imkmx",
+  "license": "MIT",
+  "dependencies": {
+    "pg-promise": "^11.9.1",
+    "sql-formatter": "^15.4.0",
+    "sql-highlight": "^6.0.0"
+  }
 }
